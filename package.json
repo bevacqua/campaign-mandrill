@@ -1,0 +1,22 @@
+{
+  "name": "campaign-mandrill",
+  "description": "Mandrill email provider for Campaign",
+  "homepage": "https://github.com/bevacqua/campaign-mandrill",
+  "author": {
+    "name": "Nicolás Bevacqua",
+    "email": "hello@ponyfoo.com",
+    "url": "https://ponyfoo.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bevacqua/campaign-mandrill.git"
+  },
+  "version": "1.0.0",
+  "licenses": "MIT",
+  "main": "mandrill.js",
+  "dependencies": {
+    "contra": "1.9.1",
+    "lodash": "4.5.1",
+    "mandrill-api": "1.0.45"
+  }
+}
