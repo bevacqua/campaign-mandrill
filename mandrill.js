@@ -78,7 +78,7 @@ module.exports = function (options) {
                 auto_text: true,
                 inline_css: true,
                 preserve_recipients: false,
-                tags: model.provider.tags ? model.provider.tags : [model._template]
+                tags: [model._template].concat(model.provider.tags ? model.provider.tags : [])
             }
         };
 
